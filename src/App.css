@@ -1,0 +1,32 @@
+.photo-gallery{
+  display: flex; 
+  padding: 0 65px;  
+  justify-content: center;
+}
+
+.photo-gallery-container{
+  display: flex;
+  flex-direction: column; 
+  background-color:#eff0f4;
+  padding: 0 1%;
+  width: 99%;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+}
+
+.image-grid{  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+ grid-column-gap: 5px;
+ grid-row-gap:5px;
+     
+}
+
+.image-thumbnail{
+  cursor: pointer;
+  height: 100%;
+  width :100%;
+}
